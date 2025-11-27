@@ -6,6 +6,7 @@
     <title>Sophie's Yoga Registration</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
+      // 保持 Tailwind 顏色擴充配置
       tailwind.config = {
         theme: {
           extend: {
@@ -27,20 +28,14 @@
         }
       }
     </script>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
+    </head>
   <body class="bg-sage-50 text-sage-900 antialiased selection:bg-sage-200">
-    <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <div id="root" class="p-8 max-w-xl mx-auto">
+        <h1 class="text-3xl font-bold mb-4 text-sage-700">🧘 Sophie 的瑜珈課程報名 🧘</h1>
+        <p class="text-sage-600">這是透過 GitHub Pages 發佈的靜態頁面基礎結構。</p>
+        <div class="mt-8 p-4 bg-white rounded-lg shadow-lg">
+            <p>請將您的報名表單 HTML 元件代碼放置在此處。</p>
+        </div>
+    </div>
+    </body>
 </html>
